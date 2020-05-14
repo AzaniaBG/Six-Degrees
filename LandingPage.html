@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <header role="banner">
+    <nav class="Nav-container">
+        <section href="#icon" class="hamburger-container" onClick="toggleMenu(this)">
+            <div>Menu</div>
+            <div class="bar1"> </div>
+            <div class="bar2"> </div>
+            <div class="bar3"> </div>
+            <ul class="Menu-List">
+                <li><a href="#Home" class="Nav-links">Home</a></li>
+                <li><a href="LogIn" class="Nav-links">Log In</a></li>
+                <li><a href="#Profile" class="Nav-links">Profile/Settings</a></li>
+                <li><a href="#Connect" class="Nav-links">Connect</a></li>
+            </ul>
+        </section>
+    </nav>  
+    <section class="Hero-container">
+        <h1>Hero</h1>
+        <h2>Headline</h2>
+    </section>
+    </header>
+    <section class="headline-container">
+        <header class="headline-header">
+            <h3>About</h3>
+        </header>
+        <p class="headline-copy">Description</p>
+    </section>
+    <main class="landing-page-container">
+        <p>Ipsum lorem....</p>
+        <img />
+        <p>images</p>
+    </main>
+    
+    <footer role="content-info">Six Degrees Footer</footer>
+<script>
+    function toggleMenu(x) {
+        x.classList.toggle("change");        
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,264 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 15px 50px;
+}
+
+header, nav, h1, h2, h3, p,
+main, footer {
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+/************************** NAV ************************************/
+
+.Nav-container {
+    display: fixed;
+    margin: 5px 15px;
+    display: flex;
+    flex-direction: row;
+}
+            /* HAMBURGER MENU */
+.hamburger-container {
+    display: inline-block;
+    cursor: pointer;
+    margin: 25px 0;
+}
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: gray;
+    margin: 5px 0;
+    transition: 0.4s; 
+}
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+.change .bar2 {
+    opacity: 0;
+}
+.change .bar3 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+            /* Menu-List */
+.Nav-links {
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+}
+.change .Nav-links {
+    visibility: visible;
+}
+ul {
+    margin-left: 50px;
+
+}
+
+/* .Menu-List {
+    display: none;
+} */
+li {
+    /* list-style-type: none; */
+    display: inline-block;
+    list-style: none;
+    width: 25%;
+
+}
+        /* HERO */
+.Hero-container {
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+/************************** Landing Page ***************************/
+.headline-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: black 3px solid;
+    background-color: gray;
+    text-align: center;
+}
+.landing-page-container {
+    border: 5px black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.landing-page-container {
+    min-height: 300px;
+    width: 100%;
+}
+
+img {
+    border: blueviolet 3px solid;
+    height: 100px;
+    width: 25%;
+}
+/************************** Interests Page *************************/
+.InterestsPage-header {
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+.Interests-container {
+    border: black 3px solid;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+.Interests-container button {
+    background-color: black;
+    color: white;
+    margin: 5px 15px;
+    border-radius: 75px;
+    height: 150px;
+    width: 150px;
+    font-size: 1em;
+}
+
+/************************** User Page/Interests Page *************************/
+#UserPage-container, #InterestPage-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.UserPage-header, .InterestPage-header {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+.UserPage-profile-container, .InterestPage-main-container {
+    border: 5px black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.UserPage-contact-container {
+    border: 1px gray, solid;
+    background-color: gray;
+    color: white;
+    min-height: 25vh;
+}
+.UserPage-profile-container button {
+    width: 25%;
+    margin: 10px 5px 25px;
+    align-self: center;
+}
+.InterestPage-headline {
+    background-color: black;
+    color: white;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+.InterestPage-main-container, .InterestPage-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.InterestPage-form-container textarea {
+    margin: 15px 0px;
+    width: 50%;
+    min-height: 25vh;
+    align-self: center;
+}
+.InterestPage-main-container button {
+    width: 25%;
+    margin: 10px 5px 25px;
+    align-self: center;
+}
+/************************** Sign-Up Modal **************************/
+#SignUp-container body {
+    position: relative;
+    width: 100%;
+}
+.SignUp-Header h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.sign-up-form-container {
+    border: black 3px solid;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile-section-container {
+    background-color: gray;
+    color: white;
+    margin: 10px 10px;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+legend {
+    margin: 0px 10px;
+    padding: 15px 10px;
+    background-color: black;
+}
+input[type="button"] {
+    padding: 15px 5px;
+}
+input[type="text"] {
+    padding: 10px 5px;
+}
+button {
+    margin: 5px 5px;
+    padding: 5px 15px;
+}
+fieldset {
+    margin: 0px 10px;
+    padding: 15px 10px;
+    background-color: gray;
+    color: white;
+}
+/************************** Error Page **************************/
+
+#ErrorPage-container {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+    min-height: 75vh;
+}
+#ErrorPage-container button {
+    width: 30%;
+    align-self: center;
+}

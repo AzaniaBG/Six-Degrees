@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/main.css">
+    <title>User Page</title>
+</head>
+<body id="InterestPage-container">
+    <header role="banner">
+    <nav class="Nav-container">
+        <section href="#icon" class="hamburger-container" onClick="toggleMenu(this)">
+            <div>Menu</div>
+            <div class="bar1"> </div>
+            <div class="bar2"> </div>
+            <div class="bar3"> </div>
+            <ul class="Menu-List">
+                <li><a href="#Home" class="Nav-links">Home</a></li>
+                <li><a href="LogIn" class="Nav-links">Log In</a></li>
+                <li><a href="#Profile" class="Nav-links">Profile/Settings</a></li>
+                <li><a href="#Connect" class="Nav-links">Connect</a></li>
+            </ul>
+        </section>
+    </nav>  
+    <body id="InterestPage-container">
+        <header class="InterestPage-header">
+            <h1>Interest</h1>
+        </header>
+        <main class="InterestPage-main-container">
+            <section class="InterestPage-headline">
+                <h2>About Interest</h2>
+                <p>Interest Summary</p>
+            </section>
+            <form class="InterestPage-form-container">
+                <label for="add-comment">Add a Comment</label>
+                <textarea id="add-comment">
+                    User comment goes here. (Restrict character length)
+                </textarea>
+                <button>Submit</button>
+                <fieldset>
+                <legend>
+                    Users With This Interest
+                </legend>
+                <button><a href="">User Name (links to user's page)</a></button>
+                <button>User Contact (if applicable)</button>
+                </fieldset>
+            
+            </form>
+        </main>
+        <footer role="content-info">Six Degrees Footer</footer>
+    <script>
+        function toggleMenu(x) {
+            x.classList.toggle("change");        
+        }
+    </script>
+    </body>
+</html>
