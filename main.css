@@ -26,9 +26,13 @@ body {
 }
 
 header, nav, h1, h2, h3, p,
-main, footer {
+main {
     padding: 10px 15px;
     margin-top: 10px;
+}
+.footer footer {
+    position: relative;
+    margin: 10px 0px;
 }
 /************************** NAV ************************************/
 
