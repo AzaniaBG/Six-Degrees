@@ -20,6 +20,12 @@
 .App-link {
   color: #61dafb;
 }
+.header {
+  background-color: silver;
+  color: #282c34;
+  padding: 15px;
+}
+
 /* GENERAL */
 .container {
   padding: 15px;
