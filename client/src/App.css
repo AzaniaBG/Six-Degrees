@@ -82,14 +82,15 @@
   min-height: 100vh;
 
 }
-.Login-fieldset {
+.Login-fieldset, .Signup-fieldset {
   display: flex;
   flex-flow: column;
   background-color: rgba(0, 400, 500, .1);
 
 
 }
-.Login-fieldset legend {
+.Login-fieldset legend,
+.Signup-fieldset legend {
   
   padding-bottom: 50px; 
   background-color: silver;
@@ -98,17 +99,20 @@
 
   font-size: 2em;
 }
-.Login-fieldset label {
+.Login-fieldset label,
+.Signup-fieldset label {
   padding: 10px;
   text-align: left;
 }
-.Login-fieldset input {
+.Login-fieldset input,
+.Signup-fieldset input {
   border-radius: 3%;
   padding: 15px;
   min-width: 45vw;
 }
 
-.Login-fieldset button {
+.Login-fieldset button,
+.Signup-fieldset button {
   margin: 15px;
   padding: 5px;
   background-color: silver;
