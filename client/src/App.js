@@ -1,13 +1,14 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { withRouter, BrowserRouter as Router, Route, NavLinks } from 'react-router-dom';
 import './App.css';
-import Header from './Menu/Header';
+import Header from './menu/Header';
 
 function App() {
   return (
     <div className="App">
+      <Router>
       <header className="App-header">
-      <Route exact path="/" render={<Header />} />
+      <Route exact path="/" render={() => <Header />} />
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -17,8 +18,15 @@ function App() {
           Learn React
         </a>
       </header>
+      <main>
+
+      </main>
+      <footer>
+
+      </footer>
+      </Router>
     </div>
   );
 }
 
-export default App;
+export default withRouter(App);
