@@ -20,6 +20,18 @@
 .App-link {
   color: #61dafb;
 }
+/* GENERAL */
+.container {
+  padding: 15px;
+}
+.container button {
+  border-radius: 5%;
+  border: 3px solid silver;
+  margin: 0px 5px;
+  padding: 10px;
+  width: 15vw;
+  height: 7vh;
+}
 
 /* LANDING PAGE */
 #LandingPage-container {

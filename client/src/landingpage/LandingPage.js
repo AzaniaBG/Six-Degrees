@@ -4,7 +4,7 @@ import Header from '../menu/Header';
 
 export default function LandingPage(props) {
     return (
-        <section id="LandingPage-container">
+        <section id="LandingPage-container" className="container">
         <header className="LandingPage-headline">
             {/* <Route exact path="/landing-page"> */}
             {/* <Header pageName="Landing Page" /> */}
