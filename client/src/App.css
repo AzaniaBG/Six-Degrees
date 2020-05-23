@@ -81,11 +81,13 @@
   border-style: inset;
   min-height: 100vh;
 
-  background-color: rgba(0, 400, 500, .1);
 }
 .Login-fieldset {
   display: flex;
   flex-flow: column;
+  background-color: rgba(0, 400, 500, .1);
+
+
 }
 .Login-fieldset legend {
   
