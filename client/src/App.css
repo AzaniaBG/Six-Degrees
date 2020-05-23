@@ -73,3 +73,43 @@
   padding: 15px 25px;
   font-size: 1.5em;
 }
+/* MODAL */
+#Modal-container {
+  margin: 25px 25px;
+  border: 3px solid silver;
+  border-radius: 3%;
+  border-style: inset;
+  min-height: 100vh;
+
+  background-color: rgba(0, 400, 500, .1);
+}
+.Login-fieldset {
+  display: flex;
+  flex-flow: column;
+}
+.Login-fieldset legend {
+  
+  padding-bottom: 50px; 
+  background-color: silver;
+  color: white;
+  width: 100%;
+
+  font-size: 2em;
+}
+.Login-fieldset label {
+  padding: 10px;
+  text-align: left;
+}
+.Login-fieldset input {
+  border-radius: 3%;
+  padding: 15px;
+  min-width: 45vw;
+}
+
+.Login-fieldset button {
+  margin: 15px;
+  padding: 5px;
+  background-color: silver;
+  color: white;
+  font-size: 1.5em;
+}

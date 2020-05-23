@@ -1,4 +1,5 @@
 import React from 'react';
+import LogInPage from './LogInPage';
 
 export default function Modal(props) {
     return (
@@ -6,12 +7,8 @@ export default function Modal(props) {
             <header className="header">
                 <h2>{props.page} Page (props)</h2>
             </header>
-            {props.error}
-            <form>
-
-
-            </form>
-
+            {props.content}
+            <LogInPage />
         </section>
     )
 }
