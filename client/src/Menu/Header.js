@@ -1,12 +1,18 @@
-import { React, Component} from 'react';
+import React from 'react';
 import { Route } from 'react-router-dom';
+import Menu from './Menu';
 
-class Header extends Component {
+class Header extends React.Component {
     render() {
-        <header>
-            <Route exact path='/'>
-            <h1>Nav Header</h1>
-            </Route>
-        </header>
+        return (
+            <header id="Header-container" className="container">
+                <Route path="/">
+                <h1>{this.props.pageName}</h1>
+                </Route>
+                <Menu />
+            </header>
+        )
     }
 }
+
+export default Header;
