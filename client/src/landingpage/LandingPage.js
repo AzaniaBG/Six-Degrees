@@ -1,6 +1,6 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
-import Header from '../menu/Header';
+//import { Route } from 'react-router-dom';
+//import Header from '../menu/Header';
 
 export default function LandingPage(props) {
     return (

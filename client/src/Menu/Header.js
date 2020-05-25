@@ -1,14 +1,16 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
+import Menu from './Menu';
 
 class Header extends React.Component {
     render() {
         return (
-            <div>
-                <Route exact path="/">
-                <h1>Header</h1>
+            <header id="Header-container" className="container">
+                <Route path="/">
+                <h1>{this.props.pageName}</h1>
                 </Route>
-            </div>
+                <Menu />
+            </header>
         )
     }
 }

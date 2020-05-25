@@ -82,16 +82,16 @@
   min-height: 100vh;
 
 }
-.Login-fieldset, .Signup-fieldset {
+.Login-fieldset, 
+.Signup-fieldset {
   display: flex;
   flex-flow: column;
   background-color: rgba(0, 400, 500, .1);
-
+  border-radius: 3%;
 
 }
 .Login-fieldset legend,
 .Signup-fieldset legend {
-  
   padding-bottom: 50px; 
   background-color: silver;
   color: white;
