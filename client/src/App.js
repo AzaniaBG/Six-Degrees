@@ -4,6 +4,7 @@ import './App.css';
 import Header from './menu/Header';
 import LandingPage from './landingpage/LandingPage';
 import Modal from './modals/Modal';
+import Dashboard from './dashboard/Dashboard';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Router>
       <header className="App-header">
       <Route exact path="/landing-page" render={() => <Header pageName="LandingPage" />} />
+      <Route exact path="/dashboard" render={() => <Header pageName="Dashboard" />} />
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -26,6 +28,7 @@ function App() {
         <Route path='/error' render={() => <Modal page="Error" content="Heck! We haz error." /> } />
         <Route path='/login' render={() => <Modal page="Log In" />} />
         <Route path='/signup' render={() => <Modal page="Sign Up" />} />
+        <Route path='/dashboard' render={() => <Dashboard />} />
       </main>
       <footer>
 
