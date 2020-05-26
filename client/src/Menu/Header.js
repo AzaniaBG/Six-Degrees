@@ -6,7 +6,7 @@ class Header extends React.Component {
     render() {
         return (
             <header id="Header-container" className="container">
-                <Route path="https://azaniabg.github.io/Six-Degrees/">
+                <Route path="/Six-Degrees/">
                 <h1>{this.props.pageName}</h1>
                 </Route>
                 <Menu />
