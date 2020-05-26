@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Six-Degrees/static/css/main.23ab8c4f.chunk.css",
+    "main.js": "/Six-Degrees/static/js/main.6c43f61b.chunk.js",
+    "main.js.map": "/Six-Degrees/static/js/main.6c43f61b.chunk.js.map",
+    "runtime-main.js": "/Six-Degrees/static/js/runtime-main.c098d0a3.js",
+    "runtime-main.js.map": "/Six-Degrees/static/js/runtime-main.c098d0a3.js.map",
+    "static/js/2.3238b3cd.chunk.js": "/Six-Degrees/static/js/2.3238b3cd.chunk.js",
+    "static/js/2.3238b3cd.chunk.js.map": "/Six-Degrees/static/js/2.3238b3cd.chunk.js.map",
+    "index.html": "/Six-Degrees/index.html",
+    "precache-manifest.a40ba97ed31fe6411abcacd75c1e9f1f.js": "/Six-Degrees/precache-manifest.a40ba97ed31fe6411abcacd75c1e9f1f.js",
+    "service-worker.js": "/Six-Degrees/service-worker.js",
+    "static/css/main.23ab8c4f.chunk.css.map": "/Six-Degrees/static/css/main.23ab8c4f.chunk.css.map",
+    "static/js/2.3238b3cd.chunk.js.LICENSE.txt": "/Six-Degrees/static/js/2.3238b3cd.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c098d0a3.js",
+    "static/js/2.3238b3cd.chunk.js",
+    "static/css/main.23ab8c4f.chunk.css",
+    "static/js/main.6c43f61b.chunk.js"
+  ]
+}
