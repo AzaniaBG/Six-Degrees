@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Six-Degrees/precache-manifest.a40ba97ed31fe6411abcacd75c1e9f1f.js"
+  "/Six-Degrees/precache-manifest.fe83a759f1e05e7353194f7cfca40418.js"
 );
 
 self.addEventListener('message', (event) => {
