@@ -10,13 +10,13 @@ export default function Modal(props) {
                 <h2>{props.page} Page (props)</h2>
             </header>
             <Switch>
-            <Route exact path="/Six-Degrees/error-page">
+            <Route exact path="/error-page">
             {props.content}
             </Route>
-            <Route exact path="/Six-Degrees/login">
+            <Route exact path="/login">
             <LogInPage />
             </Route>
-            <Route exact path="/Six-Degrees/signup">
+            <Route exact path="/signup">
             <SignUpPage />
             </Route>
             </Switch>
