@@ -9,7 +9,9 @@ class Profile extends React.Component {
                 <img alt="User Avatar" />
                 </header>
                 <section>
-                    <h3>Interests</h3>
+                    <h3>Interests
+                        |
+                    </h3>
                 </section>
                 <address>Contact Information</address>
 
