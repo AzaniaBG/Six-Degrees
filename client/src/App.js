@@ -21,11 +21,11 @@ function App() {
         </a>
       </header>
       <main>
-        <Route exact path="/landing-page" render={() => <LandingPage />} />
-        <Route exact path='/' render={() => <Modal page="Modal" /> } />
-        <Route path='/error' render={() => <Modal page="Error" content="Heck! We haz error." /> } />
-        <Route path='/login' render={() => <Modal page="Log In" />} />
-        <Route path='/signup' render={() => <Modal page="Sign Up" />} />
+        <Route exact path='https://azaniabg.github.io/Six-Degrees/landing-page' render={() => <LandingPage />} />
+        <Route exact path='https://azaniabg.github.io/Six-Degrees/' render={() => <Modal page="Modal" /> } />
+        <Route path='https://azaniabg.github.io/Six-Degrees/error' render={() => <Modal page="Error" content="Heck! We haz error." /> } />
+        <Route path='https://azaniabg.github.io/Six-Degrees/login' render={() => <Modal page="Log In" />} />
+        <Route path='https://azaniabg.github.io/Six-Degrees/signup' render={() => <Modal page="Sign Up" />} />
       </main>
       <footer>
 
